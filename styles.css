@@ -1,20 +1,21 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .home {
   font-size: 27px;
   font-weight: bold;
   padding: 10px 16px;
-  border: 2px solid
-  #04AA6D;
+  border: 2px solid #04aa6d;
   background-color: #00cc8191;
- }
-.subtutilo {
-font-size: 27px;
-font-weight: bold;
+}
+.subtitulo {
+  font-size: 27px;
+  font-weight: bold;
 }
 .vertical-menu {
   width: 250px; /* Set a width if you like */
-  position: fixed;  
-  top: 30px;  
+  position: fixed;
+  top: 30px;
   left: 15px;
 }
 
@@ -31,7 +32,7 @@ font-weight: bold;
 }
 
 .vertical-menu a:active {
-  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  background-color: #04aa6d; /* Add a green color to the "active/current" link */
   color: white;
 }
 .vertical-menu {
@@ -42,23 +43,22 @@ font-weight: bold;
 .main-section {
   position: static;
   margin-left: 280px;
-  line-height:30px;
+  line-height: 30px;
   padding: 20px 40px 0px 30px;
 }
 
 .formula {
-    background-color: #ccc;
-    font-size: 17px;
-    text-align: center;
-    padding: 15px 30px; 
-
+  background-color: #ccc;
+  font-size: 17px;
+  text-align: center;
+  padding: 15px 30px;
 }
 
 .end {
-position: static;
-margin-left: 280px;
-line-height:30px;
-padding: 20px 40px 0px 30px;
+  position: static;
+  margin-left: 280px;
+  line-height: 30px;
+  padding: 20px 40px 0px 30px;
 }
 
 .bibliografia {
@@ -68,13 +68,22 @@ padding: 20px 40px 0px 30px;
 }
 
 .linea {
-  border: 2px dashed #04AA6D;
+  border: 2px dashed #04aa6d;
   margin: 0px 0px 30px 0px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #04aa6d;
+  padding: 10px;
+}
+.nav-link:hover {
+  background-color: #ccc;
+  color: #04aa6d;
 }
 
 @media (max-width: 500px) {
   .vertical-menu {
-    position:absolute;
+    position: absolute;
     justify-items: center;
     width: 340px;
     margin-left: 50px;
